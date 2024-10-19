@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import passportsizeimage from "../../assets/PASSPORT SIZE IMG_8982.jpg";
+import passportsizeimage from "../../assets/myphoto.jpg";
 import "./webpage.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import image2 from '../../assets/Screenshot 2024-10-18 162234.png'
+import image2 from '../../assets/myphoto2.0.jpg'
 import Slider from "../slider/Slider";
 import "../slider/slider.scss"
 import project1pic from '../../assets/Screenshot 2024-10-19 025726.png'
@@ -58,7 +58,7 @@ function Navbar() {
             style={{ color: "white", fontWeight: "600", fontSize:"24px" }}
           >
             
-            DHRUV SINGH
+            ALOK SHARMA
           </a>
           <button
             className="navbar-toggler"
@@ -140,7 +140,7 @@ function Navbar() {
             </ul>
 
 
-            <Link to='https://drive.google.com/file/d/1cUE6lT0qmK-JG004C878u7gyt6kBW_ec/view?usp=drive_link' >
+            <Link to='https://drive.google.com/file/d/1tCXN1fYTT5QVDXde4UHLFDtoJIEr_i9h/view?usp=drivesdk' >
             
             <button className="btn btn-light mx-5 px-4" style={{fontWeight:"600", fontSize:"18px", color:color }}>
                 Resume
@@ -270,7 +270,8 @@ function Navbar() {
           <div className="col-md-5">
             <div>
               <img
-                style={{ borderRadius: "50%", border: `1px solid ${color}` }}
+              className="mypassportphoto"
+                style={{ borderRadius: "50%", border: `1px solid ${color}`}}
                 src={passportsizeimage}
                 alt=""
               />
@@ -297,14 +298,14 @@ function Navbar() {
                 marginBottom: "0",
               }}
             >
-              I'M <p style={{ color: color }}> &nbsp;DHRUV SINGH</p>{" "}
+              I'M <p style={{ color: color }}> &nbsp;ALOK SHARMA</p>{" "}
             </p>
             <p className="about_txt" style={{ fontSize: "20px", fontWeight: "normal" }}>
               This is my official Portfolio website to showcase my all works
               related to web development and ui design.
             </p>
 
-            <Link to='https://drive.google.com/file/d/1cUE6lT0qmK-JG004C878u7gyt6kBW_ec/view?usp=drive_link' >
+            <Link to='https://drive.google.com/file/d/1tCXN1fYTT5QVDXde4UHLFDtoJIEr_i9h/view?usp=drivesdk' >
 
             <button
               className="btn"
@@ -350,7 +351,7 @@ function Navbar() {
           </div>
           <div className="col-md-5" data-aos="slide-right" data-aos-duration="2000" >
            
-            <img className="image2" style={{border:"1px solid black"}}  src={image2} alt="" />
+            <img className="image2" src={image2} alt="" />
           </div>
         </div>
       </div>
@@ -424,7 +425,7 @@ function Navbar() {
    </div>
     <div className="">
 
-    <Link to='https://github.com/dhruvsingh2486/frontend-project'>
+    <Link to='https://github.com/BROALOK/E-Commerce'>
     <button href="#" class="btn mx-2 text-light" style={{backgroundColor:color,  fontWeight:"600", marginBottom:"29px"}}>Github code</button>
 
 </Link>
@@ -452,7 +453,7 @@ function Navbar() {
    </div>
     <div className="">
 
-<Link to='https://github.com/dhruvsingh2486/partbuddy' >
+<Link to='https://github.com/BROALOK/partbuddy' >
 <button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>Github code</button>
 
 </Link>
@@ -477,7 +478,7 @@ function Navbar() {
         <div className="row" data-aos="slide-right" data-aos-duration="2000" id="contact">
           <div className="col-md-12 d-flex justify-content-center flex-column align-items-center">
            
-           <Link className="w-100 justify-content-center d-flex" to="https://github.com/dhruvsingh2486" data-aos="slide-right" data-aos-duration="2000" style={{textDecoration:"none"}}>
+           <Link className="w-100 justify-content-center d-flex" to="https://github.com/BROALOK" data-aos="slide-right" data-aos-duration="2000" style={{textDecoration:"none"}}>
            <button className="w-50 py-1 my-3 btn_hov " style={styling}  onMouseEnter={() => setIsHoverd(true)}
       onMouseLeave={() => setIsHoverd(false)} >
               GitHub
@@ -486,17 +487,17 @@ function Navbar() {
            
             
 
-            <Link className="w-100 d-flex justify-content-center" to="https://www.linkedin.com/in/dhruv-singh-40098732b/" data-aos="slide-right" data-aos-duration="2000" style={{textDecoration:"none"}}>
+            {/* <Link className="w-100 d-flex justify-content-center" to="https://www.linkedin.com/in/dhruv-singh-40098732b/" data-aos="slide-right" data-aos-duration="2000" style={{textDecoration:"none"}}>
             <button className="w-50 py-1 my-3 btn_hov " style={styling1}  onMouseEnter={() => setIsHoverd1(true)}
       onMouseLeave={() => setIsHoverd1(false)} >              LinkedIn
             </button>
-            </Link>
+            </Link> */}
           
             <button className="w-50 py-1 my-3 btn_hov "  style={styling2}  onMouseEnter={() => setIsHoverd2(true)}
-      onMouseLeave={() => setIsHoverd2(false)} >              08368006216
+      onMouseLeave={() => setIsHoverd2(false)} >              9540877724
             </button>
             <button className="w-50 py-1 my-3 btn_hov " style={styling3}  onMouseEnter={() => setIsHoverd3(true)}
-      onMouseLeave={() => setIsHoverd3(false)} >              dthakur2486@gmail.com
+      onMouseLeave={() => setIsHoverd3(false)} >              alok45990@gmail.com
             </button>
           </div>
         </div>

@@ -10,8 +10,10 @@
     margin-left: 7%;
 }
 .image2{
-    height: 320px;
+    height: 50vh;
+    width: 25vw;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .skills_section{
@@ -42,10 +44,17 @@
 .btn_hov{
     border-radius: 8px;
  font-weight: 500;
- 
 
 }
+.mypassportphoto{
+    height: 68vh;
+    width: 30vw;
+}
 @media screen and (max-width: 480px) {
+    .mypassportphoto{
+        height: 55vh;
+        width: 90vw;
+    }
     .about-mng{
         font-size: 14px;
         font-weight: 600;
@@ -63,6 +72,7 @@
     .image2{
 margin-left: 6%;
 margin-top: 16%;
+width: 80vw;
     }
 
     .skill_heading{
