@@ -1,0 +1,71 @@
+.about-mng{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.myname{
+    font-size: 40px;
+}
+.about2ndtxt{
+    margin-left: 7%;
+}
+.image2{
+    height: 320px;
+    border-radius: 50%;
+}
+
+.skills_section{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+.skills_section li{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.skill_heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.btn_hov{
+    border-radius: 8px;
+ font-weight: 500;
+ 
+
+}
+@media screen and (max-width: 480px) {
+    .about-mng{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .myname{
+        font-size: 35px;
+        width: 90vw;
+    }
+    .about_txt{
+        width: 90vw;
+    }
+    .about2ndtxt{
+        margin-left: 0%;
+    }
+    .image2{
+margin-left: 6%;
+margin-top: 16%;
+    }
+
+    .skill_heading{
+        font-size: 14px;
+    }
+  } 
