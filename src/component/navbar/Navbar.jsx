@@ -8,6 +8,7 @@ import Slider from "../slider/Slider";
 import "../slider/slider.scss"
 import project1pic from '../../assets/Screenshot 2024-10-19 025726.png'
 import project2pic from '../../assets/Screenshot 2024-10-19 032219.png'
+import project3pic from '../../assets/Screenshot 2025-01-17 190025.png'
 import { Link, useNavigate } from "react-router-dom";
 AOS.init();
 
@@ -467,6 +468,35 @@ function Navbar() {
 </div>
 
           </div>
+
+               {/* {third project} */}
+          <div className="col-md-6">
+
+<div class="card my-5" data-aos="slide-right" data-aos-duration="2000" style={{border:`2px solid ${color}`, borderRadius:"14px"}}>
+<img class="card-img-top pb-4" style={{borderRadius:"12px", border:`1px solid ${color}`}} src={project3pic} alt="Card image cap" />
+<div class="card-body">
+<h5 class="card-title py-2" style={{fontSize:"30px", border:`2px solid ${color} `, justifyContent:"center", display:"flex", alignItems:"center"}}>VYB Web page</h5>
+<p class="card-text text-xl-start" style={{fontSize:"20px"}}>A single-page web with Tailwind and Vite React is fast, responsive, customizable, scalable, SEO-friendly, and easy to maintain with dynamic components and efficient performance....</p>
+<div className="d-flex flex-column">
+<p class="card-text text-xl-start" style={{fontSize:"20px", fontWeight:"bold",color:color}}>Teck Stack:</p>
+<p class="card-text text-xl-start pb-4" style={{fontSize:"20px"}}> &nbsp;HTML,Tailwind,React...</p>
+</div>
+<div className="">
+
+<Link to='https://github.com/BROALOK/vyb' >
+<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>Github code</button>
+
+</Link>
+<Link to='https://vyb-six.vercel.app/'>
+<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>View Live Site</button>
+
+</Link>
+
+</div>
+</div>
+</div>
+
+</div>
         </div>
       </div>
 
