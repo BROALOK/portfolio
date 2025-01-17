@@ -141,7 +141,7 @@ function Navbar() {
             </ul>
 
 
-            <Link to='https://drive.google.com/file/d/1tCXN1fYTT5QVDXde4UHLFDtoJIEr_i9h/view?usp=drivesdk' >
+            <Link to='https://drive.google.com/file/d/10_t1dK-RzIk6uO-s_8gkqmxQ0bRGYO0k/view?usp=drive_link' >
             
             <button className="btn btn-light mx-5 px-4" style={{fontWeight:"600", fontSize:"18px", color:color }}>
                 Resume
@@ -306,7 +306,7 @@ function Navbar() {
               related to web development and ui design.
             </p>
 
-            <Link to='https://drive.google.com/file/d/1tCXN1fYTT5QVDXde4UHLFDtoJIEr_i9h/view?usp=drivesdk' >
+            <Link to='https://drive.google.com/file/d/10_t1dK-RzIk6uO-s_8gkqmxQ0bRGYO0k/view?usp=drive_link' >
 
             <button
               className="btn"
