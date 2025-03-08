@@ -441,7 +441,7 @@ function Navbar() {
           </div>
 
 
-          </div>
+
           <div className="col-md-6">
 
           <div class="card my-5" data-aos="slide-right" data-aos-duration="2000" style={{border:`2px solid ${color}`, borderRadius:"14px"}}>
@@ -498,6 +498,7 @@ function Navbar() {
 </div>
 
 </div>
+        </div>
         </div>
       </div>
 
