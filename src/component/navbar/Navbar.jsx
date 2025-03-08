@@ -411,6 +411,7 @@ function Navbar() {
             <h1 className="d-flex justify-content-center mt-5">
               Projects
             </h1>
+            </div>
           {/* first project  */}
           <div className="col-md-6">
 
@@ -500,7 +501,7 @@ function Navbar() {
 </div>
         </div>
         </div>
-      </div>
+      
 
 
       <div className="container">
