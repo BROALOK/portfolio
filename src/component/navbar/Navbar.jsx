@@ -402,7 +402,16 @@ function Navbar() {
         </div>
         </div>
       </div>
-          {/* second project  */}
+
+                  {/* projects  */}
+      <div id="projects" className="container">
+        <div className="row">
+          <div className="col-md-12">
+
+            <h1 className="d-flex justify-content-center mt-5">
+              Projects
+            </h1>
+          {/* first project  */}
           <div className="col-md-6">
 
           <div class="card my-5" data-aos="slide-right" data-aos-duration="2000" style={{border:`2px solid ${color}`, borderRadius:"14px"}}>
@@ -428,17 +437,9 @@ function Navbar() {
     </div>
   </div>
 </div>
-
+{/*   second project */}
           </div>
 
-            {/* projects  */}
-      <div id="projects" className="container">
-        <div className="row">
-          <div className="col-md-12">
-
-            <h1 className="d-flex justify-content-center mt-5">
-              Projects
-            </h1>
 
           </div>
           <div className="col-md-6">
