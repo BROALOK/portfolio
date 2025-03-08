@@ -7,7 +7,7 @@ import image2 from '../../assets/myphoto2.0.jpg'
 import Slider from "../slider/Slider";
 import "../slider/slider.scss"
 import project1pic from '../../assets/Screenshot 2024-10-19 025726.png'
-import project2pic from '../../assets/Screenshot 2024-10-19 032219.png'
+import project2pic from '../../assets/Screenshot 2025-03-09 000512.png'
 import project3pic from '../../assets/Screenshot 2025-01-17 190025.png'
 import { Link, useNavigate } from "react-router-dom";
 AOS.init();
@@ -402,8 +402,36 @@ function Navbar() {
         </div>
         </div>
       </div>
+          {/* second project  */}
+          <div className="col-md-6">
 
-      {/* projects  */}
+          <div class="card my-5" data-aos="slide-right" data-aos-duration="2000" style={{border:`2px solid ${color}`, borderRadius:"14px"}}>
+  <img class="card-img-top pb-4" style={{borderRadius:"12px", border:`1px solid ${color}`}} src={project2pic} alt="Card image cap" />
+  <div class="card-body">
+    <h5 class="card-title py-2" style={{fontSize:"30px", border:`2px solid ${color} `, justifyContent:"center", display:"flex", alignItems:"center"}}>Tasty Burger</h5>
+    <p class="card-text text-xl-start" style={{fontSize:"20px"}}> Designed and developed a responsive restaurant website with an intuitive UI, dynamic menu display, and seamless navigation, enhancing user experience and accessibility. Built using modern web technologies for optimal performance and engagement</p>
+   <div className="d-flex flex-column">
+   <p class="card-text text-xl-start" style={{fontSize:"20px", fontWeight:"bold",color:color}}>Teck Stack:</p>
+   <p class="card-text text-xl-start pb-4" style={{fontSize:"20px"}}> &nbsp;HTML,CSS,Bootstrap,React...</p>
+   </div>
+    <div className="">
+
+<Link to='https://github.com/BROALOK/Tasty-Burger' >
+<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>Github code</button>
+
+</Link>
+<Link to='https://tasty-burger-seven.vercel.app/'>
+<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>View Live Site</button>
+
+</Link>
+
+    </div>
+  </div>
+</div>
+
+          </div>
+
+            {/* projects  */}
       <div id="projects" className="container">
         <div className="row">
           <div className="col-md-12">
@@ -435,34 +463,6 @@ function Navbar() {
    <button href="#" class="btn mx-2 text-light " style={{backgroundColor:color,  fontWeight:"600", marginBottom:"29px"}}>View Live Site</button>
 
    </Link>
-    </div>
-  </div>
-</div>
-
-          </div>
-          {/* second project  */}
-          <div className="col-md-6">
-
-          <div class="card my-5" data-aos="slide-right" data-aos-duration="2000" style={{border:`2px solid ${color}`, borderRadius:"14px"}}>
-  <img class="card-img-top pb-4" style={{borderRadius:"12px", border:`1px solid ${color}`}} src={project2pic} alt="Card image cap" />
-  <div class="card-body">
-    <h5 class="card-title py-2" style={{fontSize:"30px", border:`2px solid ${color} `, justifyContent:"center", display:"flex", alignItems:"center"}}>Automobile Parts</h5>
-    <p class="card-text text-xl-start" style={{fontSize:"20px"}}> This is An automobile parts store for car parts and accessories, In this project image are taken from Boodmo.com...</p>
-   <div className="d-flex flex-column">
-   <p class="card-text text-xl-start" style={{fontSize:"20px", fontWeight:"bold",color:color}}>Teck Stack:</p>
-   <p class="card-text text-xl-start pb-4" style={{fontSize:"20px"}}> &nbsp;HTML,CSS,Bootstrap,React...</p>
-   </div>
-    <div className="">
-
-<Link to='https://github.com/BROALOK/partbuddy' >
-<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>Github code</button>
-
-</Link>
-<Link to='https://partbuddy.vercel.app/'>
-<button href="#" class="btn mx-2 text-light mb-4" style={{backgroundColor:color, fontWeight:"600"}}>View Live Site</button>
-
-</Link>
-
     </div>
   </div>
 </div>
