@@ -419,7 +419,7 @@ function Navbar() {
   <img class="card-img-top pb-4" style={{borderRadius:"12px", border:`1px solid ${color}`}} src={project2pic} alt="Card image cap" />
   <div class="card-body">
     <h5 class="card-title py-2" style={{fontSize:"30px", border:`2px solid ${color} `, justifyContent:"center", display:"flex", alignItems:"center"}}>Tasty Burger</h5>
-    <p class="card-text text-xl-start" style={{fontSize:"20px"}}> Designed and developed a responsive restaurant website with an intuitive UI, dynamic menu display, and seamless navigation, enhancing user experience and accessibility. Built using modern web technologies for optimal performance and engagement</p>
+    <p class="card-text text-xl-start" style={{fontSize:"20px"}}> Tasty Burger is a sleek and modern food ordering website that offers a seamless shopping cart experience with local storage integration. Featuring a user-friendly design, it allows customers to browse delicious burgers, add items to their cart, and manage orders effortlessly </p>
    <div className="d-flex flex-column">
    <p class="card-text text-xl-start" style={{fontSize:"20px", fontWeight:"bold",color:color}}>Teck Stack:</p>
    <p class="card-text text-xl-start pb-4" style={{fontSize:"20px"}}> &nbsp;HTML,CSS,Bootstrap,React...</p>
