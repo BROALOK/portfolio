@@ -305,7 +305,7 @@ function Navbar() {
               related to web development and ui design.
             </p>
 
-            <Link to="https://drive.google.com/file/d/1tCXN1fYTT5QVDXde4UHLFDtoJIEr_i9h/view?usp=drivesdk">
+            <Link to="https://drive.google.com/file/d/1syrib0JCfeis6tgoRMYdA5tIA3tFjeV5/view?usp=drive_link">
               <button
                 className="btn"
                 style={{
